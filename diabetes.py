@@ -24,7 +24,7 @@ def make_entries(df, v_entry, value1, value2=None):
 
 
 
-##### FILTER DATAFRAME BY DATE
+#### FILTER DATAFRAME BY DATE
 df = df.loc[df['date'] == '05.06.17']
 
 #### FILTER DATAFRAME BY ANNOTATION AND VAULT_ENTRY_TYPE
